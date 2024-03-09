@@ -1,7 +1,7 @@
 import TaskSidebar from "./components/TaskSidebar";
 import NewTask from "./components/newTask";
 import EmptyProject from "./components/EmptyProject";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import SelectedTask from "./components/SelectedTask";
 const existingTask = JSON.parse(localStorage.getItem("tasks")) || {
